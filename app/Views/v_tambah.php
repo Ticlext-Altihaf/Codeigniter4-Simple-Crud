@@ -7,7 +7,7 @@
     <title>Add New User</title>
 </head>
 <body>
-<form action="/crud/create" method="post">
+<form action="<?php echo base_url('crud/create') ?>" method="post">
     <label>
         Nama:
         <input type="text" name="nama">
